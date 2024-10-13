@@ -69,10 +69,10 @@ uvicorn app:app --reload
 3. Enter your query in the prompt bar and hit "Search" to retrieve results.
 
 ## API Endpoints
-
+```bash
 GET /: Renders the main chatbot interface.
 GET /get_answer: Accepts a query and returns answer .
-
+```
 ``` bash
 RAG_chatbot/
 │
