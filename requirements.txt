@@ -1,0 +1,8 @@
+langchain-community
+faiss-gpu
+sentence_transformers 
+fastapi
+autocorrect
+nltk
+sqlalchemy
+bitsandbytes
