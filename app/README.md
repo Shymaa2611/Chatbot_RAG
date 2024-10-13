@@ -1,6 +1,6 @@
 # Chatbot
 
-This project implements a search engine using Retrieval and vector database with FastAPI for the backend, SQLAlchemy for database interactions, and Jinja2 for rendering a simple web interface. The search engine retrieves relevant documents and generates responses based on those documents, providing users with accurate and contextually relevant answers.
+This project implements a chatbot using Retrieval and vector database  and generation model with FastAPI for the backend, SQLAlchemy for database interactions, and Jinja2 for rendering a simple web interface. The chatbot generate answer for your 's question based on most relevant retrival documents, providing users with accurate and contextually relevant answers.
 
 
 
