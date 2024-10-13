@@ -35,7 +35,8 @@ This project implements a search engine using Retrieval and vector database with
 - [Pydantic](https://pydantic-docs.helpmanual.io/) - Data validation and settings management using Python type annotations.
 
 ## Dataset
-Falah/arxiv-research-paper
+ Falah/arxiv-research-paper
+- run dataset.py file to create pdf of research paper
 
 ## Installation
 
