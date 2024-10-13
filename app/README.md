@@ -57,17 +57,17 @@ pip install -r requirements.txt
 ## Usage
 
 Start the FastAPI server:
-```
+```bash
+
 uvicorn app:app --reload
+
 ```
 2. Open your web browser and go to http://localhost:8000 to access the interface.
-
 3. Enter your query in the search bar and hit "Search" to retrieve results.
 
 ## API Endpoints
-
-    GET /: Renders the main chatbiot interface.
-    POST /search: Accepts a query and returns relevant documents and generated responses.
+GET /: Renders the main chatbiot interface.
+POST /search: Accepts a query and returns relevant documents and generated responses.
 
 ```bash
 AI-Search/
