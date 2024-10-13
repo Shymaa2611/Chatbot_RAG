@@ -1,6 +1,7 @@
 # Chatbot
 
-This project implements a search engine using Retrieval and vector database with FastAPI for the backend, SQLAlchemy for database interactions, and Jinja2 for rendering a simple web interface. The search engine retrieves relevant documents and generates responses based on those documents, providing users with accurate and contextually relevant answers.
+This project implements a chatbot using Retrieval and vector database  and generation model with FastAPI for the backend, SQLAlchemy for database interactions, and Jinja2 for rendering a simple web interface. The chatbot generate answer for your 's question based on most relevant retrival documents, providing users with accurate and contextually relevant answers.
+
 
 ![DEMO](demo.gif)
 
@@ -36,6 +37,7 @@ This project implements a search engine using Retrieval and vector database with
 
 ## Dataset
 Falah/arxiv-research-paper
+- run dataset.py file to create pdf of research paper .
 
 ## Installation
 
@@ -43,13 +45,15 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Shymaa2611/RAG_chatbot.git
-   cd RAG_chatbot
-   ```
+```bash
+   
+git clone https://github.com/Shymaa2611/RAG_chatbot.git
+cd RAG_chatbot
+   
+```
 
 2. Install the required packages:
-```
+```bash
 pip install -r requirements.txt
 
 ```
@@ -57,19 +61,19 @@ pip install -r requirements.txt
 ## Usage
 
 Start the FastAPI server:
-```
+```bash
 uvicorn app:app --reload
 ```
 2. Open your web browser and go to http://localhost:8000 to access the interface.
 
-3. Enter your query in the search bar and hit "Search" to retrieve results.
+3. Enter your query in the prompt bar and hit "Search" to retrieve results.
 
 ## API Endpoints
 
-    GET /: Renders the main chatbot interface.
-    GET /get_answer: Accepts a query and returns answer .
+GET /: Renders the main chatbot interface.
+GET /get_answer: Accepts a query and returns answer .
 
-```
+``` bash
 RAG_chatbot/
 │
 ├── app/                      # Main application directory
