@@ -46,12 +46,15 @@ To get started with this project, follow these steps:
 1. Clone the repository:
 
 ```bash
+
 git clone https://github.com/Shymaa2611/Chatbot_RAG.git
 cd Chatbot_RAG
+
 ```
 
 2. Install the required packages:
 ``` bash
+
 pip install -r requirements.txt
 
 ```
