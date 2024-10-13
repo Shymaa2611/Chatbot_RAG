@@ -43,13 +43,13 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
 
-   ```bash
-   git clone 
-   cd 
-   ```
+```bash
+git clone https://github.com/Shymaa2611/Chatbot_RAG.git
+cd Chatbot_RAG
+```
 
 2. Install the required packages:
-```
+``` bash
 pip install -r requirements.txt
 
 ```
@@ -69,7 +69,7 @@ uvicorn app:app --reload
     GET /: Renders the main chatbiot interface.
     POST /search: Accepts a query and returns relevant documents and generated responses.
 
-```
+```bash
 AI-Search/
 │
 ├── app/                      # Main application directory
