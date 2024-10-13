@@ -5,7 +5,7 @@ from sqlalchemy.orm import Session
 import crud
 import models
 from database import SessionLocal, engine
-#from model.qa import get_answer
+from model.qa import get_answer
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
@@ -24,7 +24,7 @@ def main(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
 def save_qa(query: str, db: Session = Depends(get_db)):
-    answer = "Deep learning is a subfield of machine learning that focuses on using neural networks with many layers (called deep neural networks) to model complex patterns in data. It is inspired by the structure and functioning of the human brain, where neurons are interconnected to process information."
+    answer = get_answer(query)
     existing_doc = db.query(models.QA).filter(models.QA.question == query).first()     
     if not existing_doc: 
             db_qa = crud.create_qa(db, question=query,answer=answer)
