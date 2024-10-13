@@ -65,7 +65,7 @@ uvicorn app:app --reload
 
 ```
 2. Open your web browser and go to http://localhost:8000 to access the interface.
-3. Enter your query in the search bar and hit "Search" to retrieve results.
+3. Enter your query in the prompot and hit "button of send" to give answer of your 's question.
 
 ## API Endpoints
 GET /: Renders the main chatbiot interface.
